@@ -1,0 +1,39 @@
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment variables
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+
+# Build output
+dist/
+build/
+out/
+.next/
+.vite/
+.vite-cache/
+coverage/
+
+# Logs
+logs/
+*.log
+
+# Editor/OS files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Typescript
+*.tsbuildinfo
+
+# Local dev artifacts
+*.local
+*.tmp
