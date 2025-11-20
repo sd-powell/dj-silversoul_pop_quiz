@@ -1,30 +1,19 @@
 {
   "compilerOptions": {
-    // File layout
     "rootDir": "src",
     "outDir": "dist",
 
-    // Environment: Node + modern JS
     "target": "ES2020",
-    "module": "NodeNext",
-    "moduleResolution": "NodeNext",
+    "module": "commonjs",
+    "moduleResolution": "node",
+
     "lib": ["ES2020"],
     "types": ["node"],
 
-    // Interop
-    "esModuleInterop": true,
-    "allowSyntheticDefaultImports": true,
-    "resolveJsonModule": true,
-
-    // Build behaviour
     "strict": true,
     "skipLibCheck": true,
-    "sourceMap": true,
-    "noEmitOnError": true,
-
-    // Optional stricter checks (you can turn on as you go)
-    "noUncheckedIndexedAccess": true,
-    "exactOptionalPropertyTypes": true
+    "esModuleInterop": true,
+    "resolveJsonModule": true
   },
   "include": ["src"],
   "exclude": ["dist", "node_modules"]
